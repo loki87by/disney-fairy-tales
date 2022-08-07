@@ -1,0 +1,13 @@
+.Header__button {
+  width: 25%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 0;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 0;
+  background: transparent;
+}

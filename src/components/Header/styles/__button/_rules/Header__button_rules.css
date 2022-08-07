@@ -1,0 +1,16 @@
+.Header__button_rules {
+  margin: 0;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: var(--bg-color);
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  font-weight: bold;
+  font-size: 6vmin;
+  background: transparent;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}

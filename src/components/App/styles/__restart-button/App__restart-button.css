@@ -1,0 +1,29 @@
+.App__restart-button {
+  position: absolute;
+  bottom: 1.5vmin;
+  right: 0;
+  height: 5vmin;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0 1vw;
+  margin: 0;
+  padding: 0 1vw;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 1;
+  color: var(--bg-color);
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}

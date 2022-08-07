@@ -1,0 +1,11 @@
+.App__rules-text {
+  visibility: visible;
+  min-height: 200px;
+  margin-top: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: var(--bg-color);
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  font-size: 1em;
+  word-wrap: break-word;
+}
