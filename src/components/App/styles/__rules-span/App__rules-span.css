@@ -1,6 +1,0 @@
-.App__rules-span {
-  color: var(--bg-color);
-  font-size: 1.5em;
-  -webkit-filter: invert(1) hue-rotate(92deg) sepia(0.7) brightness(0.5);
-  filter: invert(1) hue-rotate(92deg) sepia(0.7) brightness(0.5);
-}
