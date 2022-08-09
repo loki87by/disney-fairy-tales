@@ -1,5 +1,6 @@
 // ***импорты
 import React from "react";
+import { Link } from 'react-router-dom';
 import { STORIES } from '../../utils/consts';
 import "./Main.css";
 
@@ -9,9 +10,12 @@ function Main(props) {
 
   // **DOM
   return (
-    <main>
+    <section>
       <h1>Алфавитный указатель</h1>
-    </main>
+      {STORIES.map((story, index) => (
+        <Link to={`/stories:${story.link.toLowerCase()}`} key={index}>{story.name}</Link>
+      ))}
+    </section>
   );
 }
 
