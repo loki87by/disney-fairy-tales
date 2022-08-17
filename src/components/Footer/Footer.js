@@ -1,17 +1,13 @@
-// **импорты
 import React from "react";
 import "./Footer.css";
 
-// **функционал
 function Footer() {
-  // *состояния
-
-  // **DOM
   return (
     <footer className="Footer">
+      <h3>©</h3>
+      <time>2022</time>
     </footer>
   );
 }
 
-// **экспорт
 export default Footer;

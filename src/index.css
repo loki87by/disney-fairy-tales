@@ -1,6 +1,10 @@
 html {
   --bg-color: #fff;
-  line-height: 1;
+  --front-color: #4f6801f0;
+  --t-color0: #f9f29ba3;
+  --t-color1: #df533dcf;
+  --t-color2: #e78900eb;
+  --t-color3: #309fd1fa;
 }
 
 body {
@@ -14,7 +18,6 @@ body {
 
 #root {
   position: relative;
-  height: 100vh;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,4 +31,8 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between;
   overflow: hidden;
+}
+
+button {
+  cursor: pointer;
 }

@@ -82,402 +82,646 @@ import Atlantis from "../assets/Atlantis.mp3";
 export const STORIES = [
   {
     file: Dalmatins,
-    link: 'Dalmatins',
+    link: "Dalmatins",
     name: "101 далматинец",
   },
   {
     file: Dalmatines2,
-    link: 'Dalmatines2',
+    link: "Dalmatines2",
     name: "102 Далматинца",
   },
   {
     file: Alladin,
-    link: 'Alladin',
+    link: "Alladin",
     name: "Алладин",
   },
   {
     file: Alice,
-    link: 'Alice',
+    link: "Alice",
     name: "Алиса в стране чудес",
   },
   {
     file: Atlantis,
-    link: 'Atlantis',
+    link: "Atlantis",
     name: "Атлантида. Затерянный мир",
   },
   {
     file: SnowWhite,
-    link: 'SnowWhite',
+    link: "SnowWhite",
     name: "Белоснежка и 7 гномов",
   },
   {
     file: Twild,
-    link: 'Twild',
+    link: "Twild",
     name: "Большое путешествие",
   },
   {
     file: Piglet,
-    link: 'Piglet',
+    link: "Piglet",
     name: "Большой фильм про поросенка",
   },
   {
     file: BrothBear,
-    link: 'BrothBear',
+    link: "BrothBear",
     name: "Братец медвежонок",
   },
   {
     file: BrotherBear2,
-    link: 'BrotherBear2',
+    link: "BrotherBear2",
     name: "Братец медвежонок 2",
   },
   {
     file: Bambi,
-    link: 'Bambi',
+    link: "Bambi",
     name: "Бэмби",
   },
   {
     file: Bambi2,
-    link: 'Bambi2',
+    link: "Bambi2",
     name: "Бэмби 2",
   },
   {
     file: Robinson,
-    link: 'Robinson',
+    link: "Robinson",
     name: "В гости к Робинсонам",
   },
   {
     file: FindingDori,
-    link: 'FindingDori',
+    link: "FindingDori",
     name: "В поисках Дори",
   },
   {
     file: Nemo,
-    link: 'Nemo',
+    link: "Nemo",
     name: "В поисках Немо",
   },
   {
     file: WalliE,
-    link: 'WalliE',
+    link: "WalliE",
     name: "Валл-И",
   },
   {
     file: Up,
-    link: 'Up',
+    link: "Up",
     name: "Вверх",
   },
   {
     file: GreatMouse,
-    link: 'GreatMouse',
+    link: "GreatMouse",
     name: "Великий мышиный сыщик",
   },
   {
     file: Bolt,
-    link: 'Bolt',
+    link: "Bolt",
     name: "Вольт",
   },
   {
     file: Hercules,
-    link: 'Hercules',
+    link: "Hercules",
     name: "Геркулес",
   },
   {
     file: InsideOut,
-    link: 'InsideOut',
+    link: "InsideOut",
     name: "Головоломка",
   },
   {
     file: HunchbackNotredame,
-    link: 'HunchbackNotredame',
+    link: "HunchbackNotredame",
     name: "Горбун из Нотр-Дамма",
   },
   {
     file: Herocity,
-    link: 'Herocity',
+    link: "Herocity",
     name: "Город героев",
   },
   {
     file: Dumbo,
-    link: 'Dumbo',
+    link: "Dumbo",
     name: "Дамбо",
   },
   {
     file: Dinosaurs,
-    link: 'Dinosaurs',
+    link: "Dinosaurs",
     name: "Динозавр",
   },
   {
     file: Zootopia,
-    link: 'Zootopia',
+    link: "Zootopia",
     name: "Зверополис",
   },
   {
     file: Cinderella,
-    link: 'Cinderella',
+    link: "Cinderella",
     name: "Золушка",
   },
   {
     file: ToyStory1,
-    link: 'ToyStory1',
+    link: "ToyStory1",
     name: "История игрушек",
   },
   {
     file: ToyStory2,
-    link: 'ToyStory2',
+    link: "ToyStory2",
     name: "История игрушек 2",
   },
   {
     file: ToyStory3,
-    link: 'ToyStory3',
+    link: "ToyStory3",
     name: "История игрушек 3",
   },
   {
     file: ToyStory4,
-    link: 'ToyStory4',
+    link: "ToyStory4",
     name: "История игрушек 4",
   },
   {
     file: JoongleBook,
-    link: 'JoongleBook',
+    link: "JoongleBook",
     name: "Книга джунглей",
   },
   {
     file: JoongleBook2,
-    link: 'JoongleBook2',
-    name: "Книга джунглей",
+    link: "JoongleBook2",
+    name: "Книга джунглей 2",
   },
   {
     file: LionKing,
-    link: 'LionKing',
+    link: "LionKing",
     name: "Король-лев",
   },
   {
     file: LionKing2,
-    link: 'LionKing2',
+    link: "LionKing2",
     name: "Король-лев 2",
   },
   {
     file: Monsters,
-    link: 'Monsters',
+    link: "Monsters",
     name: "Корпорация монстров",
   },
   {
     file: Aristocats,
-    link: 'Aristocats',
+    link: "Aristocats",
     name: "Коты аристократы",
   },
   {
     file: BeautyBeast,
-    link: 'BeautyBeast',
+    link: "BeautyBeast",
     name: "Красавица и чудовище",
   },
   {
     file: LadyTramp,
-    link: 'LadyTramp',
+    link: "LadyTramp",
     name: "Леди и Бродяга",
   },
   {
     file: LiloStitch,
-    link: 'LiloStitch',
+    link: "LiloStitch",
     name: "Лило и Ститч",
   },
   {
     file: FoxHound,
-    link: 'FoxHound',
+    link: "FoxHound",
     name: "Лис и пес",
   },
   {
     file: SwordStone,
-    link: 'SwordStone',
+    link: "SwordStone",
     name: "Меч в камне",
   },
   {
     file: Moana,
-    link: 'Moana',
+    link: "Moana",
     name: "Моана",
   },
   {
     file: Mulan,
-    link: 'Mulan',
+    link: "Mulan",
     name: "Мулан",
   },
   {
     file: HoRange,
-    link: 'HoRange',
+    link: "HoRange",
     name: "Не бей копытом",
   },
   {
     file: OlivCo,
-    link: 'OlivCo',
+    link: "OlivCo",
     name: "Оливер и компания",
   },
   {
     file: Pinoccio,
-    link: 'Pinoccio',
+    link: "Pinoccio",
     name: "Пиноккио",
   },
   {
     file: PeterPan,
-    link: 'PeterPan',
+    link: "PeterPan",
     name: "Питер Пэн",
   },
   {
     file: ReturnToNeverland,
-    link: 'ReturnToNeverland',
+    link: "ReturnToNeverland",
     name: "Питер Пэн: Возвращение в Нетландию",
   },
   {
     file: TreasurePlanet,
-    link: 'TreasurePlanet',
+    link: "TreasurePlanet",
     name: "Планета сокровищ",
   },
   {
     file: Pocahontas,
-    link: 'Pocahontas',
+    link: "Pocahontas",
     name: "Покахонтас",
   },
   {
     file: WinnieAdventures,
-    link: 'WinnieAdventures',
+    link: "WinnieAdventures",
     name: "Приключения Винни",
   },
   {
     file: Tigger,
-    link: 'Tigger',
+    link: "Tigger",
     name: "Приключения Тигрули",
   },
   {
     file: BugsLife,
-    link: 'BugsLife',
+    link: "BugsLife",
     name: "Приключения флика",
   },
   {
     file: PrinceFrog,
-    link: 'PrinceFrog',
+    link: "PrinceFrog",
     name: "Принцесса и лягушка",
   },
   {
     file: WreckItRalph,
-    link: 'WreckItRalph',
+    link: "WreckItRalph",
     name: "Ральф",
   },
   {
     file: RalphInternet,
-    link: 'RalphInternet',
+    link: "RalphInternet",
     name: "Ральф против интернета",
   },
   {
     file: Tangled,
-    link: 'Tangled',
+    link: "Tangled",
     name: "Рапунцель",
   },
   {
     file: Ratatouille,
-    link: 'Ratatouille',
+    link: "Ratatouille",
     name: "Рататуй",
   },
   {
     file: RobinHood,
-    link: 'RobinHood',
+    link: "RobinHood",
     name: "Робин Гуд",
   },
   {
     file: Mermaid,
-    link: 'Mermaid',
+    link: "Mermaid",
     name: "Русалочка",
   },
   {
     file: Planes,
-    link: 'Planes',
+    link: "Planes",
     name: "Самолеты",
   },
   {
     file: Planes2,
-    link: 'Planes2',
-    name: "Самолеты2",
+    link: "Planes2",
+    name: "Самолеты 2",
   },
   {
     file: Rescuers,
-    link: 'Rescuers',
+    link: "Rescuers",
     name: "Спасатели",
   },
   {
     file: Rescuedounder,
-    link: 'Rescuedounder',
+    link: "Rescuedounder",
     name: "Спасатели в Австралии",
   },
   {
     file: SleepingBeauty,
-    link: 'SleepingBeauty',
+    link: "SleepingBeauty",
     name: "Спящая красавица",
   },
   {
     file: Incredibles,
-    link: 'Incredibles',
+    link: "Incredibles",
     name: "Суперсемейка",
   },
   {
     file: Incredibles2,
-    link: 'Incredibles2',
+    link: "Incredibles2",
     name: "Суперсемейка 2",
   },
   {
     file: Coco,
-    link: 'Coco',
+    link: "Coco",
     name: "Тайна Коко",
   },
   {
     file: Cars,
-    link: 'Cars',
+    link: "Cars",
     name: "Тачки",
   },
   {
     file: Cars2,
-    link: 'Cars2',
+    link: "Cars2",
     name: "Тачки 2",
   },
   {
     file: Cars3,
-    link: 'Cars3',
+    link: "Cars3",
     name: "Тачки 3",
   },
   {
     file: MonstersUniversity,
-    link: 'MonstersUniversity',
+    link: "MonstersUniversity",
     name: "Университет монстров",
   },
   {
     file: TinkerBell,
-    link: 'TinkerBell',
+    link: "TinkerBell",
     name: "Феи",
   },
   {
     file: Frozen,
-    link: 'Frozen',
+    link: "Frozen",
     name: "Холодное сердце",
   },
   {
     file: Frozen2,
-    link: 'Frozen2',
+    link: "Frozen2",
     name: "Холодное сердце 2",
   },
   {
     file: GoDinosaurs,
-    link: 'GoDinosaurs',
+    link: "GoDinosaurs",
     name: "Хороший динозавр",
   },
   {
     file: Brave,
-    link: 'Brave',
+    link: "Brave",
     name: "Храбрая сердцем",
   },
   {
     file: ChickenLittle,
-    link: 'ChickenLittle',
+    link: "ChickenLittle",
     name: "Цыпленок Цыпа",
   },
   {
     file: BlackCaudron,
-    link: 'BlackCaudron',
+    link: "BlackCaudron",
     name: "Черный котел",
   },
 ];
+
+export const NAVIGATION = [
+  {
+    state: "storyList",
+    title: "Сказки",
+    backgrounds: [0, 1, 2, 3],
+  },
+  {
+    state: "sales",
+    title: "Акции",
+    backgrounds: [1, 0, 2, 3],
+  },
+  {
+    state: "trade",
+    title: "Честная сделка (FAQ)",
+    backgrounds: [1, 2, 0, 3],
+  },
+  {
+    state: "pay",
+    title: "Оплата",
+    backgrounds: [1, 2, 3, 0],
+  },
+];
+
+export const PAGES_CONTENT = {
+  sales: [
+    {
+      component: "h2",
+      props: "",
+      children: "Акции и цены",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children: "Стоимость одного трека - 100₽",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children:
+        "При покупке от пяти треков, скидка 5%. (Стоимость одного трека - 95₽)",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children:
+        "При покупке от десяти треков, скидка 10%. (Стоимость одного трека - 90₽)",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children:
+        "При покупке от двадцати треков, скидка 14%. (Стоимость одного трека - 86₽)",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children:
+        "При покупке от сорока треков, скидка 17%. (Стоимость одного трека - 83₽)",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children:
+        "При покупке всех треков(80 штук), скидка 20%. (Стоимость одного трека - 80₽)",
+    },
+    {
+      component: "h4",
+      props: { className: "Main__description-subtitle" },
+      children:
+        "* Дополнительный бонус для участников клиентской программы лояльности",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children:
+        "Для клиентов предусмотрен накопительный эффект действия данной акции",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children: "Пример:",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children: `Клиент купил сначала одну сказку. Спустя какое-то время захотел купить еще 4 сказки. Минимальный заказ для получения скидки - 5 сказок. Чтоб воспользоваться преимуществом данного предложения клиенту нужно оформить заказ пяти сказок, указав 4 нужных и ту которую покупал ранее, и ввести личный код вместо email, внести предоплату за 5 сказок. По личному коду клиента наш сервер определит какие сказки не повторяются и отправит их и сумму второго платежа, которая будет вычислена по формуле: "Стоимость всех сказок по акции - предоплата - внесенные ранее средства". То есть в данном примере предоплатаЖ 250₽, а второй платеж 125₽`,
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children: `Позже клиент захотел купить еще 5 сказок. Оформил заказ на 10 сказок (5 новых и 5 имеющихся). Внес предоплату за покупку 10 сказок(500₽). В итоге получится следующее: 900₽(стоимость 10 сказок по акции) - 500₽(предоплата) - 475₽(внесенные ранее за покупку 5 сказок) = -75₽. Эти 75₽ сохраняются на балансе покупателя и будут использованны в счёт следующей покупки`,
+    },
+    {
+      component: "h4",
+      props: { className: "Main__description-subtitle" },
+      children: "* Сроки действия акции",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children:
+        "Данная акция действует до конца текущего года, и может быть продлена или изменена по желанию продавца после его завершения.",
+    },
+  ],
+  trade: [
+    {
+      component: "h2",
+      props: "",
+      children: "Честная сделка (FAQ)",
+    },
+    {
+      component: "h4",
+      props: "",
+      children: "Что такое честная сделка?",
+    },
+    {
+      component: "h5",
+      props: "",
+      children:
+        "Честная сделка - это сделка при которой обе стороны участвующие в сделке несут равные риски",
+    },
+    {
+      component: "h4",
+      props: "",
+      children: "Как это работает?",
+    },
+    {
+      component: "h5",
+      props: "",
+      children:
+        "Вы отправляете предоплату в размере половины полной стоимости (без учета скидок). В течении суток на указанную вами почту вы получаете файл и уже после получения отправляете оставшуюся сумму",
+    },
+    {
+      component: "h4",
+      props: "",
+      children: "Пример:",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children:
+        "Вы собираетесь приобрести 10 трэков. Их стоимость 10шт * 100₽ = 1000₽. В данный момент действует акция и стоимость 10 трэков - 900₽. В таком случае предоплата составит: 1000₽(полная стоимость) / 2 = 500₽. А после получения вы опачиваете 900₽(стоимость по акции) - 500₽(предоплата) = 400₽",
+    },
+  ],
+  pay: [
+    {
+      component: "h2",
+      props: "",
+      children: "СБЕР: 4276 5501 0765 4124",
+    },
+    {
+      component: "h2",
+      props: "",
+      children: "Tinkoff: 5536 9138 1103 3048",
+    },
+    {
+      component: "h4",
+      props: "",
+      children:
+        "Предоплата вносится на один из вышеуказанных кошельков в размере половины полной стоимости покупки",
+    },
+    {
+      component: "h5",
+      props: "",
+      children: "* ОБЯЗАТЕЛЬНО:",
+    },
+    {
+      component: "h5",
+      props: "",
+      children:
+        "В комментарии необходимо указать код товара (или несколких в скобках через запятую), ваш email на который будут отправляться файлы, и префикс платежа",
+    },
+    {
+      component: "h4",
+      props: "",
+      children: "Префикс платежа",
+    },
+    {
+      component: "h5",
+      props: "",
+      children:
+        "Если вы вносите предоплату, префикс: --ON. Если это остаток платежа, префикс: --OFF",
+    },
+    {
+      component: "h4",
+      props: "",
+      children: "Примеры платежа",
+    },
+    {
+      component: "h5",
+      props: "",
+      children: "Предоплата за 5 сказок:",
+    },
+    {
+      component: "h5",
+      props: "",
+      children: `Сумма перевода: 250₽. Комментарий: "(01, 03, 05, 19, 22) test@mail.ru --ON"`,
+    },
+    {
+      component: "h5",
+      props: "",
+      children: "Оплата после их получения:",
+    },
+    {
+      component: "h5",
+      props: "",
+      children: `Сумма перевода: 225₽. Комментарий: "test@mail.ru --OFF"`,
+    },
+    {
+      component: "h2",
+      props: { className: "Main__description-subtitle" },
+      children: "Дальнейшие взаимодействия покупателя с продавцом",
+    },
+    {
+      component: "h5",
+      props: "",
+      children:
+        "После успешной оплаты второй части платежа, плательщик вносится в нашу базу данных и получает письмо с личным кодом плательщика, который в последующем используется в комментарии вместо email",
+    },
+    {
+      component: "h4",
+      props: "",
+      children: "Преимущества личного кода:",
+    },
+    {
+      component: "h5",
+      props: "",
+      children:
+        "В базу данных клиентов вносится не только email плательщика, но и все сделанные им покупки, на которые распространяется расширенная клиентская программа",
+    },
+    {
+      component: "h4",
+      props: "",
+      children: "Клиентская программа лояльности:",
+    },
+    {
+      component: "h5",
+      props: { className: "Main__description-subtitle" },
+      children:
+        "Суть программы заключается в том, что на клиента совершившего покупку в период действия какой-либо акции, эта акция действует постоянно, даже после своего завершения.",
+    },
+  ],
+};

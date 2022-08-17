@@ -1,6 +1,4 @@
 {
-  "name": "disney-fairy-tales",
-  "homepage": "https://loki87by.github.io/disney-fairy-tales/",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -14,6 +12,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "4.0.1",
     "react-touch-events": "^3.0.0",
+    "use-sound": "^4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -21,7 +20,6 @@
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

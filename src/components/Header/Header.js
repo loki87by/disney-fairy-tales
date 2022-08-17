@@ -1,15 +1,12 @@
-// **импорты
 import React from "react";
 import "./Header.css";
 
-// **функционал
 function Header(props) {
-
-  // *DOM
   return (
     <header className="Header">
+      <h2>{props.headerText}</h2>
     </header>
   );
 }
-// **экспорт
+
 export default Header;

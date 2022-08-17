@@ -1,5 +1,4 @@
-// **импорты
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
@@ -9,16 +8,22 @@ import "../../vendor/normalize.css";
 import "./App.css";
 
 function App() {
-  // **стейты
+  const [headerText, setHeaderText] = useState("Волшебные сказки");
 
-  // DOM
   return (
     <BrowserRouter>
-      <Header />
+      <Header headerText={headerText} />
       <main className="content">
         <Routes>
-          <Route exact path="/" element={<Main/>}></Route>
-          <Route path="/stories:id" element={<Stories/>}></Route>
+          <Route
+            exact
+            path="/"
+            element={<Main setHeaderText={setHeaderText} />}
+          ></Route>
+          <Route
+            path="/stories:id"
+            element={<Stories setHeaderText={setHeaderText} />}
+          ></Route>
         </Routes>
       </main>
       <Footer />
@@ -26,5 +31,4 @@ function App() {
   );
 }
 
-// **экспорт
 export default App;
