@@ -10,6 +10,17 @@ import "./App.css";
 function App() {
   const [headerText, setHeaderText] = useState("Волшебные сказки");
 
+  React.useEffect(() => {
+    window.addEventListener("popstate", () => {
+      setHeaderText("Волшебные сказки");
+    });
+    return () => {
+      window.removeEventListener("popstate", () => {
+        setHeaderText("Волшебные сказки");
+      });
+    };
+  }, []);
+
   return (
     <BrowserRouter>
       <Header headerText={headerText} />

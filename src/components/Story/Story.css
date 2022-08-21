@@ -27,22 +27,6 @@
   width: 100%;
 }
 
-.Story__track-article {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.Story__track-article-title {
-  margin: 1rem;
-}
-
 .Story__track-duration {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,25 +41,50 @@
 }
 
 .Story__track-listenBlock {
+  position: relative;
+  width: 100%;
   margin: 1rem auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
+.Story__track-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Story__track-text {
+  margin: auto .25rem;
+}
+
+.Story__track-listenBlock > button {
+  width: max-content;
+  margin: auto;
+}
+
 .Story__track-range {
+  width: calc(100% - 5rem);
+  margin: 1rem auto;
   cursor: pointer;
+}
+
+.Story__track-output {
+  position: absolute;
+  top: 0;
 }
 
 .Story__track-button {
   width: 3rem;
   height: 3rem;
+  margin: auto;
   cursor: pointer;
 }
 
@@ -106,6 +115,35 @@
   color: var(--bg-color);
   font-size: 1.5rem;
   text-align: center;
+}
+
+.Preloader {
+  max-width: 100%;
+  height: calc(100vh - 8rem);
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+justify-content: center;
+	background-color: var(--t-color0);
+}
+
+.Preloader__rotator{
+	width: 72px;
+	height: 72px;
+  margin: 0;
+	border: 10px solid var(--front-color);
+	border-bottom-color: var(--t-color0);
+	border-radius: 50%;
+	-webkit-animation: spin .75s infinite linear;
+	        animation: spin .75s infinite linear;
 }
 
 @media (max-width: 1024px) {
@@ -147,4 +185,18 @@
   .Story__back {
     font-size: 1.25rem;
   }
+}
+
+@-webkit-keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
 }
