@@ -87,6 +87,7 @@ function Story(props) {
 
   function goToTime(e) {
     song.currentTime = e.target.value;
+    setProgress(e.target.value)
   }
 
   function move(e) {

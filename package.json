@@ -1,5 +1,7 @@
 {
-  "version": "0.0.1",
+  "homepage": "https://loki87by.github.io/disney-fairy-tales/",
+  "name": "disney-fairy-tales",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
