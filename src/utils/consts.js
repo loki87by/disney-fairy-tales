@@ -28,7 +28,7 @@ import Frozen2 from "../assets/Frozen2.mp3";
 import GoDinosaurs from "../assets/GoDinosaurs.mp3";
 import GreatMouse from "../assets/GreatMouse.mp3";
 import Hercules from "../assets/Hercules.mp3";
-import HoRange from "../assets/Brave.mp3";
+import HoRange from "../assets/HoRange.mp3";
 import HunchbackNotredame from "../assets/HunchbackNotredame.mp3";
 import Incredibles from "../assets/Incredibles.mp3";
 import Incredibles2 from "../assets/Incredibles2.mp3";
